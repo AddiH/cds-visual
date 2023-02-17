@@ -4,11 +4,13 @@ import os
 import sys
 sys.path.append(os.path.join(".."))
 
-'''
-Takes an image and prints the RGB histogram of the img to screen, then it saves the histogram.
-'''
+
 
 def color_hist(filename):
+    '''
+    Takes an image and prints the RGB histogram of the img to screen, then it saves the histogram.
+    Image must be in "../data/img/"
+    '''
     # make path
     in_path = os.path.join("..", "data", "img", filename)
     # load img
