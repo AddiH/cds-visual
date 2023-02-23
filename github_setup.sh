@@ -14,3 +14,6 @@ git pull https://github.com/CDS-AU-DK/cds-visual.git main
 git checkout main
 git merge --no-ff CDS-AU-DK-main
 git push origin main
+
+# delete branch
+git branch --delete CDS-AU-DK-main
